@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double hours,distance,fuel;
+    
+    scanf("%lf %lf",&hours,&distance);
+    
+    fuel= (hours*distance)/12;
+    
+    printf("%.3lf\n",fuel);
+    
+    return 0;
+}
